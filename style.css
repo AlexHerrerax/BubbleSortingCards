@@ -1,0 +1,52 @@
+body{
+    background-color: #0E7E12;
+    
+}
+
+.card{
+    width: 100px;
+    height:160px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 17px;
+    margin-left: 50px;
+    margin-top:10%;
+    position: relative;
+    display: inline-block;
+
+   
+}
+
+#topSuit{
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    font-size: 35px;  
+}
+
+.numberCard{
+   font-size: 40px; 
+    text-align: center;
+    margin-top: 55px;
+}
+
+
+#bottomSuit{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    font-size: 35px;
+    transform: rotate(180deg);
+}
+
+.divBottom{
+   
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.divBottom > input{
+    font-size: 20px;
+}
+
